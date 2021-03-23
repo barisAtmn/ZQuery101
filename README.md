@@ -57,6 +57,10 @@ Example Query
     
 - Out of box caching!!!
 
+- race : submit requests to two data sources concurrently, returning results from the first to complete and safely interrupting the loser
+
+- batchN : limit the maximum degree of parallelism for a data source  
+  
 - writing queries in a high level, compositional style, with confidence that they will automatically be optimized
 
 - ZQuery : Composable, General , Performant
